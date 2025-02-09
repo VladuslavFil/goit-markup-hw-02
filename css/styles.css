@@ -109,3 +109,13 @@ footer a{
     font-family: "Raleway", sans-serif;
     color: #4d5ae5;
 }
+
+footer .studio{
+    color: #f4f4fd;
+}
+
+footer .parag{
+    line-height: 1.5;
+    color:#F4F4FD;
+    letter-spacing: 0.02em;
+}
