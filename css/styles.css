@@ -54,6 +54,8 @@ nav ul a {
     font-size: 16px;
     font-weight: 500;
     color: #434455;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 address ul {
@@ -101,11 +103,20 @@ section ul {
 h3 {
     font-size: 20px;
     font-weight: 700;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
 }
 
 .portfolio {
     text-align: center;
     padding: 120px 0;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
 }
 
 .portfolio ul {
