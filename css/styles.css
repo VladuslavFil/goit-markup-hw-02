@@ -1,209 +1,104 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap');
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 body {
-    font-family: 'Roboto', sans-serif;
-    color: #2E2F42;
-    background-color: #FFFFFF;
+    font-family: "Roboto", sans-serif;
+    color: #434455;
 }
 
-.container {
-    width: 1158px;
-    margin: 0 auto;
-    padding: 0 15px;
+.logo {
+    font-family: "Raleway", sans-serif;
+    font-size: 26px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
 }
 
-header {
-    background-color: #2E2F42;
-    padding: 24px 0;
-    position: relative;
+.logo-span {
+    color: #2e2f42;
 }
 
-.nav-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    max-width: 1158px;
-    margin: 0 auto;
-}
-
-nav a {
-    color: #FFFFFF;
-    text-decoration: none;
-    font-weight: 700;
-    font-size: 18px;
-}
-
-nav ul {
+.nav-list {
     list-style: none;
-    display: flex;
-    gap: 40px;
+    padding: 0;
+    margin: 0;
 }
 
-nav ul a {
-    font-weight: 500;
+.nav-link {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    text-decoration: none;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+    color: #404bbf;
+}
+
+.address {
+    font-style: normal;
+}
+
+.contact-link {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+    text-decoration: none;
+}
+
+.contact-link:hover,
+.contact-link:focus {
+    color: #404bbf;
 }
 
 .hero {
     text-align: center;
-    background-color: #2E2F42;
-    color: #FFFFFF;
-    padding: 188px 0;
 }
 
-.hero h1 {
-    font-size: 56px;
-    font-weight: 700;
-    margin-bottom: 24px;
+.hero-title {
+    font-size: 36px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
 }
 
-.hero button {
-    background-color: #4D5AE5;
-    color: #FFFFFF;
+.hero-button {
+    font-family: "Roboto", sans-serif;
     font-size: 16px;
-    font-weight: 500;
-    padding: 16px 32px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    background-color: #4d5ae5;
+    color: #ffffff;
     border: none;
     cursor: pointer;
-    border-radius: 4px;
 }
 
-.hero button:hover {
-    background-color: #404BBF;
+.hero-button:hover,
+.hero-button:focus {
+    background-color: #404bbf;
 }
 
-.features {
-    padding: 120px 0;
-}
-
-.features ul {
-    display: flex;
-    gap: 24px;
-    justify-content: space-between;
-    list-style-type: none;
-}
-
-.features li {
-    width: calc((100% - 72px) / 4);
-    text-align: left;
-}
-
-.features h3 {
+.features-title {
     font-size: 20px;
-    font-weight: 500;
-    margin-bottom: 8px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
 }
 
-.features p {
+.features-text {
     font-size: 16px;
-    font-weight: 400;
-    color: #434455;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
-.team {
-    background-color: #F4F4FD;
-    padding: 120px 0;
+.footer {
     text-align: center;
+    padding: 20px;
+    background-color: #2e2f42;
 }
 
-.team h2 {
-    font-size: 36px;
-    font-weight: 700;
-    margin-bottom: 72px;
-}
-
-.team ul {
-    display: flex;
-    gap: 24px;
-    justify-content: space-between;
-    list-style-type: none;
-}
-
-.team li {
-    background-color: #FFFFFF;
-    border-radius: 4px;
-    padding-bottom: 32px;
-}
-
-.team img {
-    width: 100%;
-}
-
-.team h3 {
-    font-size: 20px;
-    font-weight: 500;
-    margin-top: 32px;
-}
-
-.team p {
+.footer-text {
     font-size: 16px;
-    font-weight: 400;
-    color: #434455;
-    margin-top: 8px;
-}
-
-.portfolio {
-    padding: 120px 0;
-    text-align: center;
-}
-
-.portfolio h2 {
-    font-size: 36px;
-    font-weight: 700;
-    margin-bottom: 72px;
-}
-
-.portfolio ul {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 24px;
-    list-style-type: none;
-}
-
-.portfolio li {
-    width: calc((100% - 48px) / 3);
-    text-align: left;
-}
-
-.portfolio img {
-    width: 100%;
-}
-
-.portfolio h3 {
-    font-size: 20px;
-    font-weight: 500;
-    margin-top: 32px;
-}
-
-.portfolio p {
-    font-size: 16px;
-    font-weight: 400;
-    color: #434455;
-    margin-top: 8px;
-}
-
-footer {
-    background-color: #2E2F42;
-    color: #FFFFFF;
-    text-align: left;
-    padding: 100px 0;
-}
-
-footer a {
-    font-size: 18px;
-    font-weight: 700;
-    color: #FFFFFF;
-    text-decoration: none;
-}
-
-footer p {
-    font-size: 16px;
-    font-weight: 400;
-    color: #F4F4FD;
-    margin-top: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #f4f4fd;
 }
