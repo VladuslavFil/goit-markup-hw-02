@@ -50,19 +50,16 @@ nav ul {
     gap: 40px;
 }
 
-nav ul li a {
+.contact{
     font-size: 16px;
     font-weight: 500;
-    color: #2e2f42;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
 }
 
-.one, .two, .three{
-    color: #2e2f42;
+.contact:hover, .contact:focus{
+    color: #404bbf;
 }
 
 nav ul li a:hover{
@@ -73,11 +70,15 @@ nav ul li a:focus{
     color: #404bbf;
 }
 
-.one, .two, .three:hover{
+.one:hover{
     color: #404bbf;
 }
 
-.one, .two, .three:focus{
+.one {
+    color: #2e2f42;
+}
+
+.one:focus{
     color: #404bbf;
 }
 
@@ -203,6 +204,6 @@ footer .parag{
     color: #434455;
 }
 
-.command ul{
+.firstw{
     background-color: #FFFFFF;
 }
