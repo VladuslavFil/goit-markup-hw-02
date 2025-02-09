@@ -22,7 +22,7 @@ header .icon{
             font-size: 18px;
             font-weight: 700;
             font-family: "Raleway", sans-serif;
-            color: #4d5ae5;
+                color: #4d5ae5;
             text-decoration: none;
 }
 
@@ -61,7 +61,7 @@ nav ul li a {
     color: #434455;
 }
 
-a .one, .two, .three{
+.one, .two, .three{
     color: #2e2f42;
 }
 
@@ -98,16 +98,6 @@ section:first-of-type {
     padding: 188px 0;
 }
 
-.strategy{
-    font-size: 16px;
-    letter-spacing: 0.02em;
-    color:#434455;
-}
-
-.strategy:hover, .strategy:focus{
-    color: #404bbf
-}
-
 h1 {
     font-size: 56px;
     line-height: 1.07;
@@ -116,6 +106,18 @@ h1 {
     color: #ffffff;
     font-weight: 700;
     margin-bottom: 24px;
+}
+
+h2{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.command{
+    background-color: #F4F4FD
 }
 
 button {
@@ -199,4 +201,8 @@ footer .parag{
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+}
+
+.command ul{
+    background-color: #FFFFFF;
 }
