@@ -102,3 +102,15 @@ body {
     letter-spacing: 0.02em;
     color: #f4f4fd;
 }
+
+.features ul {
+    list-style-type: none;
+}
+
+.team ul {
+    list-style-type: none;
+}
+
+.portfolio ul{
+    list-style-type: none;
+}
